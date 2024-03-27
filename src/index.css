@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .center {
+    @apply flex justify-center items-center
+  }
+
+  .shadow-top {
+    box-shadow: 5px 0px 10px 5px #7373739c;
+  }
+}
+
+*{
+  @apply scroll-pt-[105px] md:scroll-pt-[140px]
+}
