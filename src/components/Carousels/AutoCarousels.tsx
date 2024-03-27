@@ -25,6 +25,7 @@ export default function AutoCarousels({ banners }: { banners: string[] }) {
               src={banner ?? logo}
               alt="Logo Technopartner"
               className="w-full h-full object-cover object-center"
+              loading="lazy"
             />
           </div>
         </SwiperSlide>

@@ -24,6 +24,7 @@ export default function ModalQR({ onCloseModal, qr }: ModalQRProps) {
           src={qr}
           alt="qr code to the cashier"
           className="w-full h-full object-cover"
+          loading="lazy"
         />
       </Container>
     </div>

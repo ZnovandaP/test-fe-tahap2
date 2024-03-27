@@ -33,7 +33,7 @@ export default function Login() {
     <Container>
       <div className="center flex-col h-screen">
         <div className="md:ring-2 md:ring-neutral-300 md:rounded-xl md:pb-12">
-          <img src={logo} alt="Logo Technopartner" />
+          <img src={logo} alt="Logo Technopartner" loading="lazy" />
 
           <form className="center flex-col gap-4 w-full" onSubmit={(e) => login(e)}>
             <Input
