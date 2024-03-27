@@ -10,7 +10,6 @@ export type AuthResponse = {
   refresh_token: string
 };
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const auth = async ({ username, password }: AuthParams): Promise<AuthResponse> => {
   const body = {
     grant_type: 'password',
