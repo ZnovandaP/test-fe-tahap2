@@ -17,7 +17,7 @@ export default function AppBar() {
     return null;
   }
   return (
-    <div className="fixed bg-white bottom-0 h-[72px] w-full center shadow-top">
+    <div className="fixed z-10 bg-white bottom-0 h-[72px] w-full center shadow-top">
       <Container className="center gap-32 md:gap-40 lg:gap-52">
         <ButtonMenuApp icon={home} label="Home" iconActive={homeActive} to="/" />
         <ButtonMenuApp icon={menu} label="Menu" iconActive={menuActive} to="/menu" />
